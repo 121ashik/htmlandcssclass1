@@ -1,0 +1,67 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F0F0F0;
+}
+img{
+	width:100px;
+	height:100px;
+	display:block;
+	margin:auto;
+}
+
+.login-box, .register-box {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	width: 400px;
+	margin: 100px auto;
+	padding: 30px;
+}
+
+.login-box h1, .register-box h1 {
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family:Monospace;
+	font-style: oblique;
+}
+
+.login-box form, .register-box form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-box label, .register-box label {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.login-box input[type="text"],.login-box input[type="email"], .login-box input[type="password"], .register-box input[type="text"], .register-box input[type="email"], .register-box input[type="password"] {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+.login-box button, .register-box button {
+	background-color: #3498db;
+	color: #FFFFFF;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.login-box p, .register-box p {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.login-box a, .register-box a {
+	color: #3498db;
+	text-decoration: none;
+	font-weight: bold;
+}
